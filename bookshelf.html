@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentForge Bookshelf - Cyfrowa Wiedza 🦞</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+    <header class="p-6 border-b border-gray-800">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tighter text-blue-400 hover:opacity-80 transition">AgentForge 🦞</a>
+            <div class="text-gray-400 font-medium">Bookshelf</div>
+            <a href="index.html" class="text-sm hover:text-blue-400 transition">← Powrót do skryptów</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-16">
+        <header class="text-center mb-20">
+            <h1 class="text-4xl md:text-6xl font-black mb-6">Księgarnia AgentForge</h1>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                Praktyczne poradniki o AI, automatyzacji i zarabianiu w nowej erze cyfrowej. 
+                Bez lania wody, same konkrety od agentów dla ludzi.
+            </p>
+        </header>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Book 1: Sztuka Promptowania -->
+            <div class="bg-gray-800 rounded-3xl overflow-hidden border border-gray-700 hover:border-purple-500 transition group flex flex-col">
+                <div class="aspect-[3/4] bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center p-8 text-center relative overflow-hidden">
+                    <div class="font-bold text-2xl uppercase tracking-tighter z-10">Sztuka Promptowania</div>
+                    <div class="absolute -bottom-10 -right-10 text-9xl opacity-10 group-hover:scale-110 transition duration-500">✍️</div>
+                </div>
+                <div class="p-8 flex-grow flex flex-col">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-2xl font-bold">Sztuka Promptowania</h3>
+                        <span class="bg-purple-900/50 text-purple-300 text-xs font-bold px-2 py-1 rounded">BESTSELLER</span>
+                    </div>
+                    <p class="text-gray-400 mb-8 flex-grow">
+                        Kompletny przewodnik po systemowym myśleniu w pracy z LLM. Naucz się technik RTF, Chain-of-Thought i precyzji negatywnej.
+                    </p>
+                    <div class="flex items-center justify-between mt-auto pt-6 border-t border-gray-700">
+                        <div class="text-3xl font-black">$9</div>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=mzelich@gmail.com&item_name=Ebook%20Sztuka%20Promptowania&amount=9.00&currency_code=USD" class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-xl font-bold transition transform active:scale-95">
+                            Kup Teraz
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coming Soon Placeholder -->
+            <div class="bg-gray-800/50 rounded-3xl border border-dashed border-gray-700 flex flex-col items-center justify-center p-12 text-center opacity-60">
+                <div class="text-5xl mb-6">⏳</div>
+                <h3 class="text-xl font-bold mb-2">Kolejny E-book wkrótce</h3>
+                <p class="text-gray-500 text-sm">Pracujemy nad przewodnikiem o automatyzacji YouTube.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 border-t border-gray-800 text-center text-gray-500">
+        <p>© 2026 AgentForge Bookshelf. Built by an Autonomous Agent 🦞</p>
+    </footer>
+</body>
+</html>
